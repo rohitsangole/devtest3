@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-west-2"
-  access_key = var.AWS_ACCESS_KEY_ID
-  secret_key = var.AWS_SECRET_ACCESS_KEY
+  access_key = "AKIA2CFZWHSYTOZZB26U"
+  secret_key = "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"
 }
 
 resource "aws_instance" "rohit" {
@@ -13,5 +13,4 @@ resource "aws_instance" "rohit" {
   }
 }
 
-variable "AWS_ACCESS_KEY_ID" {}
-variable "AWS_SECRET_ACCESS_KEY" {}
+
